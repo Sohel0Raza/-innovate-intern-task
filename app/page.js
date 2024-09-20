@@ -1,9 +1,11 @@
 import Banner from "./components/Banner";
+import Signup from "./components/Signup";
 
 export default function Home() {
   return (
-   <div>
-    <Banner/>
-   </div>
+    <div>
+      <Banner />
+      <Signup />
+    </div>
   );
 }

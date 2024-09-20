@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .oval {
-  position: fixed;
+  position: absolute;
   height: 3000px;
   width: 3000px;
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   border-radius: 48%;
   top: -2642px;
   left: -825px;
@@ -14,11 +14,29 @@
   opacity: 0.75;
 }
 
-.banner{
-    width: 300px;
-    height: 300px;
+.banner {
+  width: 300px;
+  height: 300px;
 }
-.banner-sm{
-    width: 260px;
-    height: 260px;
+.banner-sm {
+  width: 260px;
+  height: 260px;
 }
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-weight: 500;
+}
+
+.btn-primary {
+    border: 2px solid #4000ff;
+    color: #4000ff;
+    transition: all 0.5s ease-in-out; 
+  }
+  
+  .btn-primary:hover {
+    background-color: #4000ff;
+    color: white;
+  }
+  

@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.className}>
       <body>
+
         <div className="oval"></div>
         <div className="md:w-[90%] mx-auto">
           <Header></Header>

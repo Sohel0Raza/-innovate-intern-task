@@ -3,7 +3,6 @@ import { IoIosSearch, IoIosArrowDown } from "react-icons/io";
 export default function Header() {
   return (
     <div>
-     
       <div className="flex justify-between items-center z-50 text-white ">
         <div className="w-1/2">
           <ul className="flex items-center justify-between py-10 px-2">
