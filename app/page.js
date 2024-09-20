@@ -1,4 +1,7 @@
 import Banner from "./components/Banner";
+import Discover from "./components/Discover";
+import Exploer from "./components/Exploer";
+import Overview from "./components/Overview";
 import Signup from "./components/Signup";
 
 export default function Home() {
@@ -6,6 +9,9 @@ export default function Home() {
     <div>
       <Banner />
       <Signup />
+      <Exploer/>
+      <Overview/>
+      <Discover/>
     </div>
   );
 }

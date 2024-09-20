@@ -10,19 +10,22 @@ import user3 from "@/public/images/user3.jpg";
 
 export default function Signup() {
   return (
-    <div className="md:flex justify-between md:h-[600px] my-10 md:my-32 ">
+    <div className="md:flex justify-between md:h-[600px] my-10 md:my-32 px-2 md:w-[90%] mx-auto">
       <div className="md:w-[55%] relative">
         <div className="w-[270px] h-[280px] absolute">
           <Image
             src={image1}
             className="w-full h-full rounded-2xl"
             placeholder="blur"
+            alt="nice"
           />
           <div className="h-[80px] w-[80px] absolute -right-[30px] -bottom-[30px] border-[0.5rem] rounded-full border-white">
             <Image
               src={user1}
               className="w-full h-full rounded-full"
               placeholder="blur"
+              alt="user"
+
             />
           </div>
         </div>
@@ -31,12 +34,16 @@ export default function Signup() {
             src={image2}
             className="w-full h-full rounded-2xl"
             placeholder="blur"
+            alt="nice"
+
           />
           <div className="h-[80px] w-[80px] absolute -right-[30px] -bottom-[30px] border-[8px] rounded-full border-white">
             <Image
               src={user2}
               className="w-full h-full rounded-full"
               placeholder="blur"
+              alt="user"
+
             />
           </div>
         </div>
@@ -45,18 +52,22 @@ export default function Signup() {
             src={image3}
             className="w-full h-full rounded-2xl"
             placeholder="blur"
+            alt="nice"
+
           />
           <div className="h-[80px] w-[80px] absolute -right-[30px] -bottom-[30px] border-[0.5rem] rounded-full border-white">
             <Image
               src={user3}
               className="w-full h-full rounded-full"
               placeholder="blur"
+              alt="user"
+
             />
           </div>
         </div>
       </div>
       <div className="md:w-[45%] flex flex-col items-center justify-center">
-        <p className="p-3">
+        <p className="p-3 text-2xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
